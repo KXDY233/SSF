@@ -31,7 +31,7 @@ python main_arb_5fold.py --data=contact-high-school --epoch_num=500 --walk_len=6
 python main_arb_5fold.py --data=contact-primary-school --epoch_num=1000 --walk_len=6 --num_hops=2
 python main_arb_5fold.py --data=email-Enron --epoch_num=1000 --walk_len=6 --num_hops=2
 python main_arb_5fold.py --data=email-Eu --epoch_num=1000 --walk_len=6 --num_hops=2
-python main_arb_5fold.py --data=email-Eu --epoch_num=1000 --walk_len=3 --num_hops=2
+python main_arb_5fold.py --data=DAWN --epoch_num=1000 --walk_len=3 --num_hops=2
 
 python main_reaction_5fold.py --data=iAB_RBC_283 --epoch_num=300 --walk_len=6 --num_hops=2
 python main_reaction_5fold.py --data=iAF692 --epoch_num=300 --walk_len=6 --num_hops=2
