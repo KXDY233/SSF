@@ -10,8 +10,8 @@ pytorch == 1.9.0
 torch_geometric == 2.0.1
 numpy == 1.21.5
 scipy == 1.9.3
-sklearn 
-argparse 
+scikit-learn == 1.1.3
+argparse == 1.5.2
 ```
 
 
