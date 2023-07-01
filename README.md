@@ -4,7 +4,7 @@ Code for "Interpretable Subgraph Feature Extraction for Hyperlink Prediction."
 
 ## Required Packages
 
-The following environment was tested.
+The following environment has been tested.
 ```
 pytorch == 1.9.0
 torch_geometric == 2.0.1
