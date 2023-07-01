@@ -40,7 +40,7 @@ parser.add_argument('--batch_size', type=int, default = 32)
 ```
 
 
-## Quick Start (to reproduce the results in Table IV.)
+## Quick Start (to reproduce the results in Table III.)
 ```
 python main_arb_5fold.py --data=contact-high-school --epoch_num=500 --walk_len=6 --num_hops=3
 python main_arb_5fold.py --data=contact-primary-school --epoch_num=1000 --walk_len=8 --num_hops=2
