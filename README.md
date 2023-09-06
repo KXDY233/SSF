@@ -1,5 +1,5 @@
 # SSF
-Code for "Interpretable Subgraph Feature Extraction for Hyperlink Prediction."
+Code for "Interpretable Subgraph Feature Extraction for Hyperlink Prediction." ICDM 2023
 
 
 ## Required Packages
@@ -60,10 +60,6 @@ python main_reaction_5fold.py --data=iJO1366 --epoch_num=1500 --walk_len=8 --num
 The feature extraction results will be saved in the 📁 walk_profile.
 
 For the subgraph feature extraction procedure, if the extract subgraph is small, using cpu is faster, and vice versa. (See the function obtain_walk_profile in utils.py and utils_reaction.py)
-
-Code for adaptive analysis, ablation studies, and sensitive analysis, please refer to https://drive.google.com/drive/folders/100FIQTR53Ocg8MFjpvr_gF6ROxjlvcEh
-
-In general, we first fix the number of hops, set a larger walk_length (i.e., $\tau_c=10$), set a larger $\alpha$-set (i.e., from 1 to 0，with 0.1 intervals), then we can get a feature representation with a longer dimension. Further, the feature extraction results can be reused (by slicing indices).
 
 
 
