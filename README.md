@@ -55,11 +55,7 @@ python main_reaction_5fold.py --data=iAF1260b --epoch_num=1500 --walk_len=7 --nu
 python main_reaction_5fold.py --data=iJO1366 --epoch_num=1500 --walk_len=8 --num_hops=3
 ```
 
-## Note
 
-The feature extraction results will be saved in the 📁 walk_profile.
-
-For the subgraph feature extraction procedure, if the extract subgraph is small, using cpu is faster, and vice versa. (See the function obtain_walk_profile in utils.py and utils_reaction.py)
 
 
 
